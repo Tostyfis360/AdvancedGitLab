@@ -12,7 +12,9 @@ public class Main {
 
         String name = inputUserString();
 
-        System.out.println("Hello: " + name + " !!!");
+        String surname = inputUserString();
+
+        System.out.println("Hello, please introduce your name and surname: " + name + " " +surname+ " !!!");
 
         DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");  
         LocalDateTime now = LocalDateTime.now();  
