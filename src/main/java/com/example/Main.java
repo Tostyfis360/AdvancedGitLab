@@ -16,6 +16,8 @@ public class Main {
 
         System.out.println("Hello, please introduce your name and surname: " + name + " " +surname+ " !!!");
 
+        System.out.println("Change to git stash");
+
         DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");  
         LocalDateTime now = LocalDateTime.now();  
         System.out.println(dtf.format(now));
